@@ -18,7 +18,7 @@ class OpenAIAPI:
         messages = conversation_history + [{"role": "user", "content": user_message}]
         
         payload = {
-            "model": "gpt-3.5-turbo-1106",
+            "model": "gpt-4o-mini",
             "messages": messages,
             "max_tokens": 150
         }
